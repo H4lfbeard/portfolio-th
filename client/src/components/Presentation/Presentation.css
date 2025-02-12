@@ -5,7 +5,7 @@ section.top {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 5rem;
+  padding: 5rem 0;
 }
 
 section.top article.presentation {
@@ -34,7 +34,7 @@ section.top div.text-presentation p {
 }
 
 section.top img {
-  width: 15%;
+  width: 20%;
 }
 
 section.top article.buttons {

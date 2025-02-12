@@ -1,1 +1,76 @@
 @import url("src/variables.css");
+
+section.about {
+  margin: 2rem 0;
+}
+
+section.about div.title {
+  margin: 2rem auto 4rem;
+  width: 100%;
+  text-align: center;
+  
+}
+
+section.about div.title h3 {
+  font-size: 2rem;
+  font-family: var(--titleFont);
+  color: var(--mainColor);
+}
+
+section.about article.about-article {
+  display: grid;
+  grid-template-rows: 1fr;
+	grid-template-columns: repeat(10, 1fr);
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+section.about article.about-article div.personality-adjective {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 2rem 0;
+}
+
+section.about article.about-article article.personality-box {
+  background-color: var(--yellowBackColor);
+  border-radius: 10px;
+  color: var(--mainColor);
+  padding: 2rem;
+  text-align: center;
+  min-width: 100px;
+  min-height: 100px;
+}
+
+section.about article.about-article article.personality-box h4 {
+  color: #fff;
+}
+
+section.about article.about-article article.personality-box i {
+  font-size: 2.5rem;
+}
+
+section.about article.about-article div.text-presentation {
+  grid-area: 1 / 1 / 2 / 7;
+}
+
+section.about article.about-article img {
+  grid-area: 1 / 7 / 2 / 11;
+  width: 100%;
+  border-radius: 15px;
+}
+
+section.about article.about-article button.btn-contact {
+  display: flex;
+  background-color: var(--mainColor);
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 15px;
+  font-family: var(--titleFont);
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--secondColor);
+  align-items: center;
+  margin: 2rem 0 0 0;
+  cursor: pointer;
+}

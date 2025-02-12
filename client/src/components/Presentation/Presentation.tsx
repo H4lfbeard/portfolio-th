@@ -7,7 +7,7 @@ export default function Presentation() {
         <img src="../../src/assets/images/th.png" alt="" />
         <div className="text-presentation">
           <h2>Hey, je m'appel Thomas</h2>
-          <p>je suis Developpeur frontend</p>
+          <p>je suis développeur frontend</p>
           <p>et designer UX / UI !</p>
         </div>
       </article>
