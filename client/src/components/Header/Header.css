@@ -1,0 +1,22 @@
+@import url("src/variables.css");
+
+.App-header {
+  font-family: "Fraunces", serif;
+  color: var(--mainColor);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  background-image: url("../../assets/images/header-bg.jpg");
+}
+.App-header .material-icons {
+  font-size: 2rem;
+}
+.App-header .name {
+  display: flex;
+  align-items: center;
+}
+.App-header .picto .face, .dark_mode {
+  margin: 0 0 0 1rem;
+  cursor: pointer;
+}

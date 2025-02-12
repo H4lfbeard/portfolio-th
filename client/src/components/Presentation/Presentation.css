@@ -1,0 +1,71 @@
+@import url("src/variables.css");
+
+section.top {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5rem;
+}
+
+section.top article.presentation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.top article.presentation img {
+  margin: 0 1rem 0 0;
+}
+
+section.top article.presentation div.text-presentation{
+  margin: 0 0 0 1rem;
+}
+
+section.top div.text-presentation h2 {
+  font-family: var(--titleFont);
+  color: var(--mainColor);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+section.top div.text-presentation p {
+  font-size: 1.5rem;
+
+}
+
+section.top img{
+  width: 15%;
+}
+
+section.top article.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0 0 0;
+}
+
+section.top article.buttons button {
+  display: flex;
+  background-color: var(--mainColor);
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 15px;
+  font-family: var(--titleFont);
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--secondColor);
+  align-items: center;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+section.top article.buttons button.btn-dl {
+  border: 2px solid var(--mainColor);
+}
+
+section.top article.buttons button.btn-about {
+  background-color: var(--secondColor);
+  color: var(--mainColor);
+  border: 2px solid var(--mainColor);
+}

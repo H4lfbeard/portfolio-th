@@ -1,0 +1,11 @@
+:root {
+  --titleFont: "Fraunces";
+  --textFont: "Poppins";
+
+  --font-size: 1rem;
+
+  --font-weight-S: 400;
+
+  --mainColor: #FFA700;
+  --secondColor: #313131;
+}
