@@ -7,5 +7,4 @@ export default function Homepage() {
       <Presentation />
     </section>
   );
-  
 }

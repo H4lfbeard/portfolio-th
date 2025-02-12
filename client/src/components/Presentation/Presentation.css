@@ -18,7 +18,7 @@ section.top article.presentation img {
   margin: 0 1rem 0 0;
 }
 
-section.top article.presentation div.text-presentation{
+section.top article.presentation div.text-presentation {
   margin: 0 0 0 1rem;
 }
 
@@ -31,10 +31,9 @@ section.top div.text-presentation h2 {
 
 section.top div.text-presentation p {
   font-size: 1.5rem;
-
 }
 
-section.top img{
+section.top img {
   width: 15%;
 }
 

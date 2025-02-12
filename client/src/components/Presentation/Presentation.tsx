@@ -12,14 +12,13 @@ export default function Presentation() {
         </div>
       </article>
       <article className="buttons">
-        <button className="btn-dl">
+        <button className="btn-dl" type="button">
           Télécharger mon CV <i className="material-icons">face</i>
         </button>
-        <button className="btn-about">
+        <button className="btn-about" type="button">
           À propos de moi <i className="material-icons">bolt</i>
         </button>
       </article>
     </section>
   );
-  
 }

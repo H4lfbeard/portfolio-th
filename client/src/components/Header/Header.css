@@ -16,7 +16,8 @@
   display: flex;
   align-items: center;
 }
-.App-header .picto .face, .dark_mode {
+.App-header .picto .face,
+.dark_mode {
   margin: 0 0 0 1rem;
   cursor: pointer;
 }
