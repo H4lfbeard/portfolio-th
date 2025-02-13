@@ -13,9 +13,15 @@ export default function ProjectPage() {
   }
   return (
     <>
-      <HeroImage heroImg={project.heroImg} title={project.title}/>
+      <HeroImage heroImg={project.heroImg} title={project.title} />
       <section className="project-page">
-        <ProjectPresentation title={project.title} description={project.description} img1={project.img1} img2={project.img2} url={project.url}/>
+        <ProjectPresentation
+          title={project.title}
+          description={project.description}
+          img1={project.img1}
+          img2={project.img2}
+          url={project.url}
+        />
       </section>
     </>
   );

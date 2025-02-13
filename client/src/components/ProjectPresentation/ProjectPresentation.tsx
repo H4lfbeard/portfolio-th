@@ -9,7 +9,13 @@ interface ProjectPresentationProps {
   url: string;
 }
 
-export default function ProjectPresentation({ title, description, img1, img2, url }: ProjectPresentationProps) {
+export default function ProjectPresentation({
+  title,
+  description,
+  img1,
+  img2,
+  url,
+}: ProjectPresentationProps) {
   return (
     <>
       <section className="project-presentation">
@@ -19,9 +25,7 @@ export default function ProjectPresentation({ title, description, img1, img2, ur
         </div>
         <article className="project-article">
           <img src={img1} alt="" />
-          <p>
-            {description}
-          </p>
+          <p>{description}</p>
         </article>
       </section>
 
@@ -48,10 +52,10 @@ export default function ProjectPresentation({ title, description, img1, img2, ur
                 <p>MySQL</p>
               </article>
             </div>
-            <Link to={url} >
-            <button className="btn-github" type="button">
-              Github
-            </button>
+            <Link to={url}>
+              <button className="btn-github" type="button">
+                Github
+              </button>
             </Link>
           </div>
           <img src={img2} alt="" />

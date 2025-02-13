@@ -1,4 +1,3 @@
-
 import "./HeroImage.css";
 
 interface HeroImageProps {
@@ -6,8 +5,7 @@ interface HeroImageProps {
   title: string;
 }
 
-export default function HeroImage({ heroImg, title }:  HeroImageProps) {
-
+export default function HeroImage({ heroImg, title }: HeroImageProps) {
   return (
     <section className="hero-section">
       <h2>Project {title}</h2>
