@@ -1,10 +1,13 @@
+import { Link } from "react-router-dom";
 import "./Header.css";
 
 export default function Header() {
   return (
     <header className="App-header">
       <div className="name">
-        <h1>Thomas HUMBERT</h1>
+        <h1>
+          <Link to="/">Thomas HUMBERT</Link>
+        </h1>
         <i className="material-icons">bolt</i>
       </div>
       <div className="picto">

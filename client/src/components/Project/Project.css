@@ -1,1 +1,31 @@
 @import url("src/variables.css");
+
+section.project div.title {
+  margin: 2rem auto 4rem;
+  width: 100%;
+  text-align: center;
+}
+
+section.project div.title h3 {
+  font-size: 2rem;
+  font-family: var(--titleFont);
+  color: var(--mainColor);
+}
+
+section.project div.project-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 10rem 0;
+}
+
+section.project div.project-container a {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+section.project div.project-container article.project-box {
+  background-color: var(--yellowBackColor);
+  padding: 1rem;
+  border-radius: 15px;
+}

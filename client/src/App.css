@@ -20,6 +20,14 @@ section.homepage {
   margin: auto;
 }
 
+section.project-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+  margin: auto;
+}
+
 #root {
   background-image: url("./assets/images/background.jpg");
 }

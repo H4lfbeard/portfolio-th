@@ -1,0 +1,17 @@
+@import url("src/variables.css");
+
+section.hero-section {
+  color: var(--secondColor);
+}
+
+section.hero-section h2 {
+  font-family: var(--titleFont);
+  font-weight: bold;
+  font-size: 4rem;
+  position: absolute;
+  padding: 5rem;
+}
+
+section.hero-section img {
+  width: 100%;
+}

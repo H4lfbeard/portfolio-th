@@ -1,0 +1,105 @@
+@import url("src/variables.css");
+
+section.project-presentation {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+section.project-presentation div.title {
+  margin: 2rem 0;
+}
+
+section.project-presentation div.title h3 {
+  font-size: 2rem;
+  font-family: var(--titleFont);
+  color: var(--mainColor);
+}
+
+article.project-article-description div.project-stack {
+  width: 100%;
+  text-align: center;
+  border-radius: 20px;
+  padding: 3rem;
+  background-color: aquamarine;
+}
+
+div.project-stack h3 {
+  font-size: 2rem;
+  font-family: var(--titleFont);
+  color: var(--mainColor);
+}
+
+div.project-stack div.stack-logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+div.project-stack div.stack-logo article.logo {
+  width: 50%;
+  margin: 2rem 0;
+}
+
+div.project-stack div.stack-logo article.logo img {
+  width: 50%;
+}
+
+article.project-article {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+section.project-presentation article.project-article p {
+  grid-area: 1 / 5 / 2 / 11;
+}
+
+section.project-presentation article.project-article img {
+  background-color: var(--yellowBackColor);
+  padding: 1rem;
+  grid-area: 1 / 1 / 2 / 5;
+  width: 100%;
+  border-radius: 20px;
+}
+
+article.project-article-description {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+  margin: 4rem 0;
+  justify-content: center;
+  align-items: top;
+}
+
+section.project-description
+  article.project-article-description
+  div.project-stack {
+  grid-area: 1 / 1 / 2 / 2;
+  background-color: var(--yellowBackColor);
+}
+
+section.project-description article.project-article-description img {
+  background-color: var(--yellowBackColor);
+  padding: 1rem;
+  grid-area: 1 / 2 / 2 / 3;
+  width: 100%;
+  border-radius: 20px;
+}
+
+button.btn-github {
+  background-color: var(--mainColor);
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 15px;
+  font-family: var(--titleFont);
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--secondColor);
+  margin: 2rem 0 0 0;
+  cursor: pointer;
+}
