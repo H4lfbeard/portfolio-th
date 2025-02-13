@@ -1,10 +1,17 @@
+
 import "./HeroImage.css";
 
-export default function HeroImage() {
+interface HeroImageProps {
+  heroImg: string;
+  title: string;
+}
+
+export default function HeroImage({ heroImg, title }:  HeroImageProps) {
+
   return (
     <section className="hero-section">
-      <h2>Project Veever</h2>
-      <img src="./../src/assets/images/veever-hero.jpg" alt="" />
+      <h2>Project {title}</h2>
+      <img src={heroImg} alt={title} />
     </section>
   );
 }

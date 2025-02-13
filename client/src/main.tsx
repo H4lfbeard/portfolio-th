@@ -25,7 +25,7 @@ const router = createBrowserRouter([
     element: <App />, // App acts as the main layout
     children: [
       { path: "/", element: <Homepage /> }, // Homepage will render inside App
-      { path: "/project", element: <ProjectPage /> }, // ProjectPage will render inside App
+      { path: "/project/:id", element: <ProjectPage /> }, // ProjectPage will render inside App
     ],
   },
 ]);

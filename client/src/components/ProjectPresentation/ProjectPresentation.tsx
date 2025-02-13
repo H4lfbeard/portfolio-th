@@ -1,24 +1,26 @@
+import { Link } from "react-router-dom";
 import "./ProjectPresentation.css";
 
-export default function ProjectPresentation() {
+interface ProjectPresentationProps {
+  title: string;
+  description: string;
+  img1: string;
+  img2: string;
+  url: string;
+}
+
+export default function ProjectPresentation({ title, description, img1, img2, url }: ProjectPresentationProps) {
   return (
     <>
       <section className="project-presentation">
         <div className="title">
           <p>Présentation</p>
-          <h3>du projet</h3>
+          <h3>du projet {title}</h3>
         </div>
         <article className="project-article">
-          <img src="../../src/assets/images/mockup-phone.png" alt="" />
+          <img src={img1} alt="" />
           <p>
-            Après plus de 7 années à travailler en tant que designer et
-            intégrateur web aux côtés de développeurs, j’ai décidé de moi aussi
-            commencer à coder mes propres applications. J’ai donc profité
-            d’avoir l’opportunité de prendre un départ volontaire de mon
-            ancienne entreprise pour me former dans développement front-end en
-            Javascript et ReactJS afin d’ajouter une corde de plus à mon arc de
-            designer. J’espère pouvoir mettre toutes mon expérience ainsi que
-            mes compétences au service d’une nouvelle aventure.
+            {description}
           </p>
         </article>
       </section>
@@ -26,7 +28,7 @@ export default function ProjectPresentation() {
       <section className="project-description">
         <article className="project-article-description">
           <div className="project-stack">
-            <p>Présentation</p>
+            <p>La stack</p>
             <h3>du projet</h3>
             <div className="stack-logo">
               <article className="logo">
@@ -46,11 +48,13 @@ export default function ProjectPresentation() {
                 <p>MySQL</p>
               </article>
             </div>
+            <Link to={url} >
             <button className="btn-github" type="button">
               Github
             </button>
+            </Link>
           </div>
-          <img src="../../src/assets/images/mockup-charte.png" alt="" />
+          <img src={img2} alt="" />
         </article>
       </section>
     </>

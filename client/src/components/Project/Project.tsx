@@ -12,9 +12,9 @@ export default function Project() {
       </div>
       <div className="project-container">
         {projects.map((project) => (
-          <Link to="/project" key={project.title}>
+          <Link to={`/project/${project.id}`} key={project.title}>
             <article className="project-box">
-              <img src={project.img} alt="" />
+              <img src={project.imgCard} alt="" />
               <h4>{project.title}</h4>
               <p>Voir plus +</p>
             </article>
