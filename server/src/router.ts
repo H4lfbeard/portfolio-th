@@ -13,6 +13,10 @@ router.get("/api/items", itemActions.browse);
 router.get("/api/items/:id", itemActions.read);
 router.post("/api/items", itemActions.add);
 
+import projectActions from "./modules/project/projectActions";
+
+router.get("api/project", projectActions.browse);
+
 /* ************************************************************************* */
 
 export default router;

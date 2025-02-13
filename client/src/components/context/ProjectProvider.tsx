@@ -42,6 +42,8 @@ const projectData = [
 ];
 
 export function ProjectProvider({ children }: ProjectProviderProps) {
+  // useEffect to fetch data from an API
+  // const [projects, setProjects] = useState<Project[]>([]);
   return (
     <ProjectContext.Provider value={{ projects: projectData }}>
       {children}
