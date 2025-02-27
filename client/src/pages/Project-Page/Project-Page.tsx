@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
 import "../../App.css";
+import { useEffect } from "react";
 import HeroImage from "../../components/HeroImage/HeroImage";
 import ProjectPresentation from "../../components/ProjectPresentation/ProjectPresentation";
 import { useProjects } from "../../components/context/ProjectContext";
@@ -8,8 +9,13 @@ export default function ProjectPage() {
   const { id } = useParams();
   const { projects } = useProjects();
   const project = projects.find((project) => project.id === id);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   if (!project) {
-    return <h2>Project not found</h2>;
+    return <h2>Project not fucking found</h2>;
   }
   return (
     <>

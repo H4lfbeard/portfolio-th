@@ -6,7 +6,7 @@ export default function HeroImage() {
       <article className="skills-article">
         <div className="dev-skills">
           <p>Skills</p>
-          <h3>dévellopement</h3>
+          <h3>développement</h3>
           <div className="dev-logo">
             <article className="logo">
               <img src="../../src/assets/pictos/html.svg" alt="" />

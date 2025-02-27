@@ -6,7 +6,7 @@ export default function Presentation() {
       <article className="presentation">
         <img src="../../src/assets/images/th.png" alt="" />
         <div className="text-presentation">
-          <h2>Hey, je m'appel Thomas</h2>
+          <h2>Hey, je m'appelle Thomas</h2>
           <p>je suis développeur frontend</p>
           <p>et designer UX / UI !</p>
         </div>

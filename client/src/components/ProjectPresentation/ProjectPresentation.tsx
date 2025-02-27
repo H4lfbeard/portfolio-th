@@ -52,7 +52,7 @@ export default function ProjectPresentation({
                 <p>MySQL</p>
               </article>
             </div>
-            <Link to={url}>
+            <Link to={url} target="_blank">
               <button className="btn-github" type="button">
                 Github
               </button>

@@ -1,4 +1,4 @@
-@import url("src/variables.css");
+@import "/src/variables.css";
 
 section.about {
   margin: 2rem 0;

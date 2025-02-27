@@ -15,7 +15,7 @@ router.post("/api/items", itemActions.add);
 
 import projectActions from "./modules/project/projectActions";
 
-router.get("api/project", projectActions.browse);
+router.get("/api/project", projectActions.browse);
 
 /* ************************************************************************* */
 

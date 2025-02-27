@@ -3,7 +3,7 @@ import "./Header.css";
 
 export default function Header() {
   return (
-    <header className="App-header">
+    <header className="App-header" id="anchor">
       <div className="name">
         <h1>
           <Link to="/">Thomas HUMBERT</Link>
