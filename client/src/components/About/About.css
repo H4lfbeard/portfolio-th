@@ -73,3 +73,31 @@ section.about article.about-article button.btn-contact {
   margin: 2rem 0 0 0;
   cursor: pointer;
 }
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 1200px) {
+  section.about article.about-article {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  section.about article.about-article img {
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+    object-position: 20% 30%;
+  }
+}
+
+@media (max-width: 940px) {
+  div.text-presentation {
+    display: flex;
+    flex-direction: column;
+  }
+  section.about article.about-article article.personality-box {
+    padding: 1rem;
+  }
+  section.about article.about-article article.personality-box h4 {
+    font-size: 0.8rem;
+  }
+}

@@ -65,3 +65,18 @@ section.project-description article.skills-article div.design-skills {
   width: 100%;
   border-radius: 20px;
 }
+
+/* RESPONSIVE DESIGN MOBILE  */
+
+@media (max-width: 940px) {
+  article.skills-article {
+    display: flex;
+    flex-direction: column;
+  }
+  section.project-description article.skills-article div.dev-skills {
+    padding: 2rem 1rem;
+  }
+  section.project-description article.skills-article div.design-skills {
+    padding: 2rem 1rem;
+  }
+}

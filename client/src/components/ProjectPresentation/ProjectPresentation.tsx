@@ -25,7 +25,9 @@ export default function ProjectPresentation({
         </div>
         <article className="project-article">
           <img src={img1} alt="" />
-          <p>{description}</p>
+          <div className="description-text">
+            <p>{description}</p>
+          </div>
         </article>
       </section>
 

@@ -37,7 +37,7 @@ export default function About() {
           <p>
             Dynamique, autonome, coopératif et passionné, je serais ravi de
             rejoindre votre équipe pour y apporter mon expertise et ma bonne
-            humeur !{" "}
+            humeur !
           </p>
           <button className="btn-contact" type="button">
             Contactez moi

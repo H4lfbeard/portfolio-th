@@ -8,7 +8,7 @@ import { useProjects } from "../../components/context/ProjectContext";
 export default function ProjectPage() {
   const { id } = useParams();
   const { projects } = useProjects();
-  const project = projects.find((project) => project.id === id);
+  const project = projects.find((project) => String(project.id) === id);
 
   useEffect(() => {
     window.scrollTo(0, 0);

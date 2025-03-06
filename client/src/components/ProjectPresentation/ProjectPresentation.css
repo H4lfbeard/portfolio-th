@@ -5,6 +5,10 @@ section.project-presentation {
   text-align: center;
 }
 
+section.project-presentation article.description-text {
+  background-color: var(--white);
+}
+
 section.project-presentation div.title {
   margin: 2rem 0;
 }
@@ -52,10 +56,19 @@ article.project-article {
   gap: 3rem;
   justify-content: center;
   align-items: center;
+  height: 100%;
 }
 
-section.project-presentation article.project-article p {
+section.project-presentation article.project-article div.description-text {
   grid-area: 1 / 5 / 2 / 11;
+  color: var(--secondColor);
+  background-color: var(--yellowBackColor);
+  height: 100%;
+  border-radius: 15px;
+  padding: 3rem;
+  align-items: center;
+  text-align: left;
+  align-content: stretch;
 }
 
 section.project-presentation article.project-article img {
@@ -102,4 +115,17 @@ button.btn-github {
   color: var(--secondColor);
   margin: 2rem 0 0 0;
   cursor: pointer;
+}
+
+/* RESPONSIVE DESIGN MOBILE  */
+
+@media (max-width: 940px) {
+  article.project-article {
+    display: flex;
+    flex-direction: column;
+  }
+  article.project-article-description {
+    display: flex;
+    flex-direction: column;
+  }
 }

@@ -68,3 +68,53 @@ section.top article.buttons button.btn-about {
   color: var(--mainColor);
   border: 2px solid var(--mainColor);
 }
+
+/* RESPONSIVE MOBILE */
+
+section.top {
+  padding: 2rem 0;
+}
+
+@media (max-width: 940px) {
+  section.top article.presentation {
+    flex-direction: column;
+  }
+  section.top img {
+    width: 40%;
+  }
+  section.top article.presentation img {
+    margin: 0;
+  }
+  section.top div.text-presentation h2 {
+    text-align: center;
+  }
+  section.top div.text-presentation p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  section.top article.buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+  section.top article.buttons button.btn-dl {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
+  }
+
+  section.top article.buttons button.btn-about {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
+  }
+
+  section.top img {
+    width: 60%;
+  }
+}
