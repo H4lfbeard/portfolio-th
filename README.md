@@ -22,6 +22,8 @@ cd portfolio-th
 
 npm install
 
+npm audit fix
+
 ## Étape 4 / Dupliquer les fichiers .env.sample / Dans votre terminal : 
 
 cp client/.env.sample client/.env
@@ -34,8 +36,10 @@ DB_USER=YOUR_DATABASE_USERNAME
 
 DB_PASSWORD=YOUR_DATABASE_PASSWORD
 
-## Étape 6 / Faire la migration de la base de données :
+## Étape 6 / Faire la migration de la base de données / Dans votre terminal :
 
 npm run db:migrate
 
-## Étape 7 / ENJOY ! N'oubliez pas que le projet est un cours, si vous voyez des bugs n'hésitez pas à me les remonter 😇
+## Étape 7 / ENJOY ! N'oubliez pas que le projet est un cours, si vous voyez des bugs n'hésitez pas à me les remonter 😇 / Dans votre terminal : 
+
+npm run dev
