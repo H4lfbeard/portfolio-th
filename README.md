@@ -12,7 +12,7 @@ Commencez par récupérer le projet en local :
 
 ## Étape 1 / Clonez le repo / Dans votre terminal :
 
-git clone https://github.com/ton-utilisateur/portfolio-th.git
+git clone git@github.com:H4lfbeard/portfolio-th.git
 
 ## Étape 2 / Se rendre dans le dossier du projet / Dans votre terminal : 
 
