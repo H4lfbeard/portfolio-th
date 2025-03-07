@@ -10,21 +10,21 @@ Suivez ces étapes pour installer et exécuter le projet sur votre machine.
 
 Commencez par récupérer le projet en local :  
 
-## Étape 1 / Clonez le repo / Dans votre terminal :
+## Étape 1 / Clonez le repo / Dans votre terminal, copiez / collez la ligne suivante :
 
 git clone git@github.com:H4lfbeard/portfolio-th.git
 
-## Étape 2 / Se rendre dans le dossier du projet / Dans votre terminal : 
+## Étape 2 / Se rendre dans le dossier du projet / Dans votre terminal, copiez / collez la ligne suivante :
 
 cd portfolio-th
 
-## Étape 3 / Installer l'environnement de travail / Dans votre terminal : 
+## Étape 3 / Installer l'environnement de travail / Dans votre terminal, copiez / collez les lignes suivante :
 
 npm install
 
 npm audit fix
 
-## Étape 4 / Dupliquer les fichiers .env.sample / Dans votre terminal : 
+## Étape 4 / Dupliquer les fichiers .env.sample / Dans votre terminal, copiez / collez les lignes suivante :
 
 cp client/.env.sample client/.env
 
@@ -36,10 +36,10 @@ DB_USER=YOUR_DATABASE_USERNAME
 
 DB_PASSWORD=YOUR_DATABASE_PASSWORD
 
-## Étape 6 / Faire la migration de la base de données / Dans votre terminal :
+## Étape 6 / Faire la migration de la base de données / Dans votre terminal, copiez / collez la ligne suivante :
 
 npm run db:migrate
 
-## Étape 7 / ENJOY ! N'oubliez pas que le projet est un cours, si vous voyez des bugs n'hésitez pas à me les remonter 😇 / Dans votre terminal : 
+## Étape 7 / ENJOY ! N'oubliez pas que le projet est un cours, si vous voyez des bugs n'hésitez pas à me les remonter 😇 / Dans votre terminal, copiez / collez la ligne suivante :
 
 npm run dev
